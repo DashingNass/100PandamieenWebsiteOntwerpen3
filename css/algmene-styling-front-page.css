@@ -48,8 +48,8 @@ div {
     padding-top: 0.5em;
     padding-left: 2em;
     color: transparent;
-    width: 11em;
-    height: 3em;
+  width: 8em;
+    height: 2em;
 }
 
 /*================================================*/
@@ -418,20 +418,102 @@ color: #3a3a3a;
 }
 
 
-/*groene virus*/
-/*
-#groenevirus1{
-    width: 3em;
-    height: 3em;
-    margin-left:30em;
-    margin-top: 5em;
 
+
+/*groot*/
+#groenevirus1{
+    width: 8em;
+    height: 8em;
+    margin-left:15em;
+    margin-top: 6em;
+            animation: puff-out-center 4s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+
+/*    animation: groei 5s infinite;*/
+/*    animation: draai 8s infinite;*/
+    background-color: transparent;
 }
 
-*/
+/*klein*/
+#groenevirus2{
+    width: 4em;
+    height: 4em;
+    margin-left:1em;
+    margin-top: 8em;
+    animation: groei 5s both;
+/*    animation: draai 8s infinite;*/
+    background-color: transparent;
+}
 
-/*
-@keyframes swirl-out-bck {
+/*groot*/
+#groenevirus3{
+    width: 8em;
+    height: 8em;
+    margin-left:65em;
+    margin-top: 6em;
+/*    animation: groei 5s infinite;*/
+/*    animation: draai 8s infinite;*/
+            animation: puff-out-center 6s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+
+    background-color: transparent;
+}
+
+/*klein*/
+#groenevirus4{
+    width: 4em;
+    height: 4em;
+    margin-left:10em;
+    margin-top: -60em;
+    animation: groei 5s both;
+/*    animation: draai 8s infinite;*/
+    background-color: transparent;
+}
+
+/*klein*/
+#groenevirus5{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    margin-left:20em;
+/*    margin-top: -40em;*/
+/*    animation: groei 5s infinite;*/
+/*    animation: draai 8s infinite;*/
+        animation: puff-out-center 2s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+
+    background-color: transparent;
+}
+
+@keyframes puff-out-center {
+  0% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+}
+@keyframes groei {
+    0% {
+/*        fill:limegreen;*/
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    50% {
+/*        fill: lightgreen;*/
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+/*                fill: limegreen;*/
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+@keyframes draai {
   0% {
     transform: rotate(0) scale(1);
     opacity: 1;
@@ -441,20 +523,71 @@ color: #3a3a3a;
     opacity: 0;
   }
 }
-*/
 
 
-    .virus0{
-        fill:#BAD612;
+.virusName{
+    color: black;
+    font-style: italic;
+    font-weight: 600;
 }
+
+
+/*styling */
+  .virus0{
+    fill:#BAD612;
+    }
     .virus1{
-        fill:#D6EA18;
-}
+    fill:#D6EA18;
+    }
     .virus2{
-        fill:#ACBC13;
+    fill:#ACBC13;
 }
 
 
+
+
+.EmptyStateTekst {
+    display: flex;
+    position: absolute;
+    width: 30em;
+    margin-right: auto;
+    margin-left: 45em;
+    margin-top: 3em;
+}
+.EmptyStateTekst h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: 30em;
+    padding: 0.5em;
+    padding-bottom: 1em;
+    color: #2131ae;
+
+
+}
+.EmptyStateTekst > p {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    padding-top: .5em;
+    margin-top: 6.5em;
+    margin-left: 1.2em;
+color: #3a3a3a;
+    background-color: transparent;
+}
+
+
+
+
+/*Button bij de emptystate*/
+#homepage{
+    padding: 1em;
+    margin-left: 39em;
+    margin-top: -15em;
+    position: absolute;
+    background-color: #191B9E;
+    border: none;
+    color: white;
+    border-radius: 10px
+}
 
 
 
@@ -531,7 +664,7 @@ img {
     border-radius: 5%;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
+/*    box-shadow: -1px 15px 30px -12px black;*/
     z-index: 9999;
 /*    margin: 2em;*/
 
@@ -583,7 +716,7 @@ background-color: #87CEEB;
     border-radius: 5%;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
+/*    box-shadow: -1px 15px 30px -12px black;*/
     z-index: 9999;
 /*    margin: 2em;*/
 
@@ -636,7 +769,7 @@ background-color: #87CEEB;
     border-radius: 5%;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
+/*    box-shadow: -1px 15px 30px -12px black;*/
     z-index: 9999;
 /*    margin: 2em;*/
 
@@ -689,7 +822,7 @@ background-color: #87CEEB;
     border-radius: 5%;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
+/*    box-shadow: -1px 15px 30px -12px black;*/
     z-index: 9999;
 /*    margin: 2em;*/
 
@@ -743,7 +876,7 @@ background: url(../images/water-animation.gif);
     border-radius: 5%;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
+/*    box-shadow: -1px 15px 30px -12px black;*/
     z-index: 9999;
 /*    margin: 2em;*/
 
@@ -796,7 +929,7 @@ background-color: #87CEEB;
     border-radius: 5%;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
+/*    box-shadow: -1px 15px 30px -12px black;*/
     z-index: 9999;
 /*    margin: 2em;*/
 
@@ -849,7 +982,7 @@ background-color: #87CEEB;
     border-radius: 5%;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
+/*    box-shadow: -1px 15px 30px -12px black;*/
     z-index: 9999;
 /*    margin: 2em;*/
 
@@ -903,7 +1036,7 @@ background-color: #87CEEB;
     border-radius: 5%;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
+/*    box-shadow: -1px 15px 30px -12px black;*/
     z-index: 9999;
 /*    margin: 2em;*/
 
@@ -956,7 +1089,7 @@ background-color: #87CEEB;
     border-radius: 5%;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
+/*    box-shadow: -1px 15px 30px -12px black;*/
     z-index: 9999;
 /*    margin: 2em;*/
 
@@ -994,10 +1127,6 @@ background-color: #87CEEB;
 .imageInCard9:hover{
 /*    background: url(../images/clouds_1.gif);*/
 }
-
-
-
-
 
 
 /*================================================*/

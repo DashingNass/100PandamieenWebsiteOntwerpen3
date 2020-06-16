@@ -94,6 +94,48 @@ header h1 {
 
 
 
+/*Timeline navigation*/
+nav{
+    position: absolute;
+ text-align: center;
+    margin-top: -2em;
+    margin-left: 36em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: transparent;
+}
+nav a{
+
+    color: #ffffff;
+    text-decoration: none;
+padding: 16px;
+        background-color: transparent;
+
+
+}
+nav a:hover{
+    position: static;
+        font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+
+    color: deepskyblue;
+/*
+    padding-right: 10px;
+    padding-left: 10px;
+*/
+    border-bottom: 1px solid deepskyblue;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+
+
 
 /*================================================*/
 /*    SPAANSE GRIEP –   DEEL 1 VAN DE PAGINA      */
@@ -115,7 +157,8 @@ header h1 {
     width: 30em;
     margin-right: auto;
     margin-left: 3.5em;
-    margin-top: 2em;
+/*    margin-top: 2em;*/
+    margin-top: 10em;
     color: #ffffff;
     background-color: transparent;
 
@@ -159,8 +202,8 @@ svg {
 }
 
 .camp {
-    padding-left: 3em;
-    margin-top: 4em;
+    padding-left: 5.8em;
+    margin-top: 10em;
 
 }
 
@@ -496,7 +539,7 @@ svg {
     width: 30em;
     margin-right: auto;
     margin-left: 45em;
-    margin-top: 3em;
+    margin-top: 18em;
 
 }
 
@@ -514,7 +557,7 @@ svg {
 
 /*SVG styling */
 .labdude {
-    padding-top: 6em;
+    padding-top: 17em;
     margin-left: -34em;
 }
 
@@ -721,7 +764,7 @@ svg {
     width: 30em;
     margin-right: auto;
     margin-left: 3.5em;
-    margin-top: 5.5em;
+    margin-top: 13em;
 
 }
 
@@ -741,6 +784,7 @@ svg {
     position: inherit;
     width: 30em;
     height: 30em;
+    padding-top: 8em;
     margin-left: 34em;
     padding-left: 5em;
 }
@@ -750,7 +794,6 @@ svg {
     background-color: transparent;
     animation: slide-left1 14s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite;
 }
-
 
 @keyframes slide-left1 {
     0% {
@@ -893,20 +936,17 @@ svg {
     width: 100%;
     background-color: transparent;
 }
-
-.progress-container {
+.progress-containeriner {
     width: 100%;
     height: 8px;
     background-color: transparent;
 }
-
 .progress-bar {
     height: 6.5px;
     background: #FBB040;
     opacity: 1;
     width: 0%;
 }
-
 
 #pagewrapper4 {
     display: flex;
@@ -921,7 +961,7 @@ svg {
     width: 30em;
     margin-right: auto;
     margin-left: 3.5em;
-    margin-top: 2em;
+    margin-top: 10em;
     color: #ffffff;
     background-color: transparent;
 
@@ -952,7 +992,7 @@ svg {
 #svglongen {
     background-color: transparent;
     padding-left: 11em;
-    margin-top: 6em;
+    margin-top: 13em;
 }
 
 .lungs0 {
@@ -1316,7 +1356,7 @@ svg {
     width: 30em;
     margin-right: auto;
     margin-left: 3.5em;
-    margin-top: 2em;
+    margin-top:10em;
     color: #ffffff;
     background-color: transparent;
 
@@ -1344,7 +1384,7 @@ svg {
 #svgisland {
     background-color: transparent;
     padding-left: 11em;
-    margin-top: 3em;
+    margin-top: 10em;
 }
 .island0 {
     fill: #379FAB;
@@ -1651,8 +1691,8 @@ svg {
 
 
 
-/*vorige knop naar artikel*/
-.vorigeKnop {
+/*Knoppen op de Spaanse griep pagina*/
+.vorigeKnop0 {
     border: none;
     vertical-align: middle;
     display: inline-block;
@@ -1676,19 +1716,18 @@ svg {
     font-size: 14px;
     text-align: center;
 }
-.vorigeKnop span {
+.vorigeKnop0 span {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
-    color: #191B9E;
+    color: deepskyblue;
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-            color: deepskyblue;
     background-color: transparent;
 
 }
-.vorigeKnop span:before {
+.vorigeKnop0 span:before {
     content: '\00ab';
     position: absolute;
     opacity: 0;
@@ -1697,24 +1736,22 @@ svg {
     left: -30px;
     transition: 0.5s;
 }
-.vorigeKnop:hover span {
+.vorigeKnop0:hover span {
     padding-left: 20px;
 color: black;
 }
-.vorigeKnop:hover span:before {
+.vorigeKnop0:hover span:before {
     opacity: 1;
     left: 0;
     color: black;
 
 }
-.vorigeKnop:hover{
+.vorigeKnop0:hover{
 background-color: #D3D3D3;
     border: none;
 }
 
-
-/*volgende knop naar artikel*/
-.volgendeKnop {
+.volgendeKnop0 {
     border: none;
     vertical-align: middle;
     display: inline-block;
@@ -1741,7 +1778,7 @@ background-color: #D3D3D3;
         margin-bottom: 2em;
 
 }
-.volgendeKnop span {
+.volgendeKnop0 span {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     color: deepskyblue;
@@ -1752,7 +1789,7 @@ background-color: #D3D3D3;
     background-color: transparent;
 
 }
-.volgendeKnop span:after {
+.volgendeKnop0 span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -1762,16 +1799,16 @@ background-color: #D3D3D3;
     right: -30px;
     transition: 0.5s;
 }
-.volgendeKnop:hover span {
+.volgendeKnop0:hover span {
     padding-right: 20px;
     color: #ffffff;
 }
-.volgendeKnop:hover span:after {
+.volgendeKnop0:hover span:after {
     opacity: 1;
     right: 0;
     color: #ffffff;
 }
-.volgendeKnop:hover{
+.volgendeKnop0:hover{
     background-color: #2131ae;
     border: none;
 }
@@ -1779,15 +1816,7 @@ background-color: #D3D3D3;
 
 
 
-
-
-
-
-
-
-
-
-/*Vorige knop op de pest pagina*/
+/*Buttons op de Pest pagina*/
 .vorigeKnop1 {
     border: none;
     vertical-align: middle;
@@ -1803,7 +1832,7 @@ background-color: #D3D3D3;
     /*  afstand van de button, links*/
     margin-left: 1em;
 /*    margin-top: 15em;*/
-    margin-top: 46.3em;
+    margin-top: 48em;
 
 /*new design*/
     border-radius: 1em;
@@ -1847,8 +1876,6 @@ background-color: #D3D3D3;
 }
 
 
-
-
 .volgendeKnop1 {
     border: none;
     vertical-align: middle;
@@ -1866,7 +1893,7 @@ background-color: #D3D3D3;
 
     /*  afstand van de button, links*/
     margin-left: 46em;
-    margin-top: 50em;
+    margin-top: 48em;
 
 
 /*    New design*/
@@ -1912,6 +1939,128 @@ background-color: #D3D3D3;
     border: none;
 }
 
+
+/*Buttons op de Papagaaien ziekte pagina*/
+.vorigeKnop3 {
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+    background-color: transparent;
+    /*    Aanpassen voor lengte*/
+    width: 19em;
+    transition: all 0.5s;
+    cursor: pointer;
+    /*  afstand van de button, links*/
+    margin-left: 1em;
+    margin-top: 15em;
+
+/*new design*/
+    border-radius: 1em;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+.vorigeKnop3 span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #191B9E;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    background-color: transparent;
+
+}
+.vorigeKnop3 span:before {
+    content: '\00ab';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    /*    verborgen cursor afstand*/
+    left: -30px;
+    transition: 0.5s;
+}
+.vorigeKnop3:hover span {
+    padding-left: 20px;
+    color: black;
+
+}
+.vorigeKnop3:hover span:before {
+    opacity: 1;
+    left: 0;
+    color: black;
+}
+.vorigeKnop3:hover{
+background-color: #D3D3D3;
+    border: none;
+}
+
+
+.volgendeKnop3 {
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+    background-color: transparent;
+
+    /*    Aanpassen voor lengte*/
+    width: 19em;
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+    /*  afstand van de button, links*/
+    margin-left: 46em;
+    margin-top: 48em;
+
+
+/*    New design*/
+        border-radius: 1em;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16em;
+
+}
+.volgendeKnop3 span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #191B9E;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    background-color: transparent;
+
+}
+.volgendeKnop3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+
+    /*    verborgen cursor afstand*/
+    right: -30px;
+    transition: 0.5s;
+}
+.volgendeKnop3:hover span {
+    padding-right: 20px;
+    color: #ffffff;
+}
+.volgendeKnop3:hover span:after {
+    opacity: 1;
+    right: 0;
+    color: #ffffff;
+}
+.volgendeKnop3:hover{
+    background-color: #2131ae;
+    border: none;
+}
 
 
 
