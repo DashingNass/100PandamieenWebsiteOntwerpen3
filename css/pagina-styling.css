@@ -987,84 +987,95 @@ svg {
 }
 .lungs0 {
     fill: #da3e49;
+    animation: colorchange0 5s infinite;
 }
 .lungs1 {
     fill: #f15465;
+        animation: colorchange1 5s infinite;
+
+
 }
 .lungs2 {
     fill: #c63441;
+            animation: colorchange2 5s infinite;
+
+
 }
 .lungs3 {
     fill: #b82536;
+            animation: colorchange3 5s infinite;
+
+
 }
 .lungs4 {
     fill: #cc324c;
+            animation: colorchange4 5s infinite;
+
+
 
 }
 
 /*colorchange keyrframe*/
-/*
-@keyframes colorchange1{
+@keyframes colorchange0{
     0%{
     fill: #da3e49;
     }
     50%{
-        fill: #7a7a7a;
+        fill: #3D3D3D;
     }
     100%{
-        fill: #525252;
+        fill: #da3e49;
     }
 
 }
-@keyframes colorchange2{
+@keyframes colorchange1{
     0%{
         fill: #f15465;
 
     }
     50%{
-        fill: #8e8e8e;
+        fill: #6b6b6b;
 }
     100%{
-        fill: #6b6b6b;
+        fill: #f15465;
     }
 
 }
-@keyframes colorchange3{
+@keyframes colorchange2{
     0%{
         fill: #c63441;
     }
     50%{
-        fill: #6b6b6b;
+        fill: #494949;
 }
     100%{
-        fill: #494949;
+        fill: #c63441;
     }
 }
-@keyframes colorchange4{
+@keyframes colorchange3{
     0%{
         fill: #b82536;
     }
     50%{
-        fill: #5b5b5b;
+        fill: #3d3d3d;
 
     }
     100%{
-        fill: #3d3d3d;
+        fill: #b82536;
     }
 
 }
-@keyframes colorchange5{
+@keyframes colorchange4{
     0%{
         fill: #cc324c;
     }
     50%{
-        fill: #696969;
-    }
-    100%{
         fill: #505050;
     }
+    100%{
+        fill: #cc324c;
+    }
 }
-*/
 
 
 .svgthermometer {
@@ -1148,7 +1159,7 @@ margin-top: -.01em;
     padding-top: 28em;
     margin-left: -13em;
     background-color: transparent;
-    animation: ratwalking 17s infinite;
+    animation: ratwalking 8s infinite;
 }
 .ratKleur0 {
     fill: #4D4D4D;
@@ -2059,10 +2070,10 @@ background-color: #D3D3D3;
 
 
 /*================================================*/
-/*          Woorden in de artikelen styling       */
+/*        <SPAN> WOORDEN VANUIT DE ARTIKELEN      */
 /*================================================*/
 
-
+/*Spaanse griep*/
 .blauw{
     color: dodgerblue;
     font-weight: 600;
@@ -2081,9 +2092,29 @@ animation: breathing 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite;
     filter: blur(0.01) opacity(1);
   }
 }
+.influenza{
+       color: aqua;
+    font-weight: 700;
+}
 
+/*De Pest*/
+.symptonen{
+    font-weight: 600;
+    background-color: transparent;
+}
+.bacterieY{
+    color: darkblue;
+        font-weight: 700;
+    background-color: transparent;
+}
 
+/*Papagaaien ziekte*/
+.parasieten{
+        color: darkblue;
 
+    font-weight: 700;
+    background-color: transparent;
+}
 /*================================================*/
 /*                  BRONNENLIJST                  */
 /*================================================*/
