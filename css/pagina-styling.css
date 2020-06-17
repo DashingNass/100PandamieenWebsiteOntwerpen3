@@ -2,18 +2,9 @@
 /*               UNIVERSELE STYLING               */
 /*================================================*/
 * {
-/*    background-color: #090734;*/
-/*    background-color: #284F85;*/
-/*    background-color: #202A4A;*/
-/*    background-color: #0A1E59;*/
-/*    background-color: black;*/
-/*    background-color: #336673;*/
     background-color: #003366;
 
 }
-
-
-
 
 
 /*Font styling*/
@@ -44,6 +35,7 @@
 /*================================================*/
 /*                  HEADER STYLING                */
 /*================================================*/
+
 
 header,
 div {
@@ -82,6 +74,15 @@ header h1 {
     font-size: 1em;
     color: #ffffff;
 }
+.pest {
+    text-align: center;
+    margin-top: -1.8em;
+    margin-left: -47em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ffffff;
+}
 .papagaai {
     text-align: center;
     margin-top: -1.8em;
@@ -91,7 +92,6 @@ header h1 {
     font-size: 1em;
     color: #ffffff;
 }
-
 
 
 /*Timeline navigation*/
@@ -131,18 +131,11 @@ nav a:hover{
 }
 
 
-
-
-
-
-
-
 /*================================================*/
 /*    SPAANSE GRIEP –   DEEL 1 VAN DE PAGINA      */
 /*================================================*/
 
 /*Left*/
-
 #pagewrapper {
     display: flex;
     flex-wrap: wrap;
@@ -200,7 +193,6 @@ svg {
     background-color: #003366;
 
 }
-
 .camp {
     padding-left: 5.8em;
     margin-top: 10em;
@@ -216,7 +208,6 @@ svg {
     animation: vliegen 17s linear infinite;
     transform: rotate(90deg);
 }
-
 
 /*animatie vliegtuig*/
 @keyframes vliegen {
@@ -246,7 +237,6 @@ svg {
     animation: blink2 7s infinite;
     fill: white;
 }
-
 @keyframes blink2 {
 
     0%,
@@ -267,7 +257,6 @@ svg {
     opacity: 0;
     animation: vuur 4s infinite;
 }
-
 #vlam2,
 #vlam3 {
     opacity: 0;
@@ -276,18 +265,15 @@ svg {
 
 
 }
-
 #vlam4,
 #vlam5 {
     animation: vuur 4s infinite;
     transform: skewX(0.6deg);
 }
-
 .st28 {
 
     animation: vuur 4s infinite;
 }
-
 @keyframes vuur {
     0% {
         transform: skewX(0.6deg);
@@ -311,17 +297,14 @@ svg {
     animation: vonkjes 1s linear infinite;
     transform: rotate(-2deg);
 }
-
 #vonkje2 {
     animation: vonkjes 1s infinite;
     transform: rotate(-2deg);
 }
-
 #vonkje3 {
     animation: vonkjes 1s infinite;
     transform: rotate(-2deg);
 }
-
 @keyframes vonkjes {
     50% {
         opacity: 0;
@@ -390,7 +373,6 @@ svg {
     fill: black;
     opacity: 0.1;
 }
-
 .st4 {
     stroke: none;
 /*    fill: #0A3F35;*/
@@ -398,8 +380,6 @@ svg {
     opacity: 0.2;
 
 }
-
-
 .st5 {
     stroke: none;
     fill: #FCD384;
@@ -466,54 +446,44 @@ svg {
     stroke: none;
     fill: #585513;
 }
-
 .st20 {
     stroke: none;
     fill: #564F01;
 }
-
 .st21 {
     stroke: none;
     fill: #6B6112;
 }
-
 .st22 {
     stroke: none;
     fill: #7B7212;
 }
-
 .st23 {
     stroke: 1px;
     ;
     fill: url(#SVGID_11_);
 }
-
 .st24 {
     stroke: none;
     /*    fill: #063A3A;*/
     /*    fill: transparant;*/
 }
-
 .st25 {
     stroke: none;
     fill: #FFFFFF;
 }
-
 .st26 {
     stroke: none;
     fill: #F86C35;
 }
-
 .st27 {
     stroke: none;
     fill: #FA873A;
 }
-
 .st28 {
     stroke: none;
     fill: #FCB944;
 }
-
 .st29 {
     stroke: none;
     fill: #FDCF63;
@@ -570,7 +540,6 @@ svg {
     padding-top: 20em;
     margin-left: -34em;
 }
-
 .laborantEnFret {
     margin-right: 20em;
 }
@@ -580,7 +549,6 @@ svg {
 #snot1 {
     animation: druppel1 2s linear infinite;
 }
-
 @keyframes druppel1 {
     0% {
         transform: translate(0, -1%);
@@ -603,7 +571,6 @@ svg {
 #snot2 {
     animation: druppel2 2s linear infinite;
 }
-
 @keyframes druppel2 {
     0% {
         transform: translate(0, 0);
@@ -630,7 +597,6 @@ svg {
 #snot7 {
     animation: druppel4 2s linear infinite;
 }
-
 @keyframes druppel4 {
     0% {
         transform: translate(0, 0);
@@ -665,94 +631,73 @@ svg {
     /*    fill: #88C4FF;*/
     fill: none;
 }
-
 .kleur1 {
     /*    fill: #88C4FF;*/
     fill: none;
 
 }
-
 .kleur5 {
     fill: #651B22;
 
 }
-
 .kleur2 {
     fill: #F7CDB4;
 }
-
 .kleur3 {
     fill: #E4B095;
 }
-
 .kleur4 {
     fill: url(#gezicht2_1_);
 }
-
 .kleur10 {
 
     fill: #FBB040;
 }
-
 .kleur8 {
     fill: #D69136;
 }
-
 .kleur6 {
     fill: #FFFFFF;
 }
-
 .kleur7 {
     fill: #89FCFC;
     opacity: 0.9;
     fill: lightblue;
 }
-
 .kleur9 {
     fill: #E2E2E2;
 }
-
 .kleur11 {
     fill: brown;
 }
-
 .kleur12 {
     fill: lightgrey;
 }
-
 .kleur13 {
     fill: grey;
 }
-
 .kleur14 {
     fill: #8CC63F;
 }
-
 .kleur15 {
     fill: #EB463E;
 }
-
 .kleur16 {
     fill: #584939;
 }
-
 .kleur17 {
     fill: #945D34;
 }
-
 .kleur18 {
     fill: #534838;
 }
-
 .kleur19 {
     opacity: 0.3;
     fill: #AA7024;
 }
-
 .kleur20 {
     fill: #A49A83;
 }
-
 
 
 /*================================================*/
@@ -856,8 +801,6 @@ svg {
 }
 
 
-
-
 /*Coffin colors*/
 .kistkleur0 {
 /*    fill: #090734;*/
@@ -905,7 +848,6 @@ svg {
 .kistkleur14 {
     fill: #90191D;
 }
-
 
 
 /*================================================*/
@@ -1429,7 +1371,6 @@ margin-top: -.01em;
     animation-delay: 10s;
     animation: boatMove 10s linear infinite;
 }
-
 .boat0 {
     fill: #F85238;
 }
@@ -1501,14 +1442,6 @@ margin-top: -.01em;
   100% { transform: translateX(1800px);
     padding-left: -20em;}
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -1596,7 +1529,6 @@ background-color: transparent;
 /*================================================*/
 /*links*/
 
-
 #pagewrapper8 {
     display: flex;
     flex-wrap: wrap;
@@ -1646,8 +1578,6 @@ background-color: transparent;
     padding-left: 24em;
     margin-top: 30em;
 }
-
-
 #bacteria:hover{
             animation: jello-horizontal 0.9s both;
 }
@@ -1818,8 +1748,7 @@ background-color: #D3D3D3;
 
 
 
-
-/*Buttons op de Pest pagina*/
+/*Knoppen op de Pest pagina*/
 .vorigeKnop1 {
     border: none;
     vertical-align: middle;
@@ -1877,7 +1806,6 @@ background-color: #D3D3D3;
 background-color: #D3D3D3;
     border: none;
 }
-
 
 .volgendeKnop1 {
     border: none;
@@ -1943,6 +1871,8 @@ background-color: #D3D3D3;
 }
 
 
+
+
 /*Buttons op de Papagaaien ziekte pagina*/
 .vorigeKnop3 {
     border: none;
@@ -2000,7 +1930,6 @@ background-color: #D3D3D3;
 background-color: #D3D3D3;
     border: none;
 }
-
 
 .volgendeKnop3 {
     border: none;
@@ -2064,8 +1993,6 @@ background-color: #D3D3D3;
     background-color: #2131ae;
     border: none;
 }
-
-
 
 
 
