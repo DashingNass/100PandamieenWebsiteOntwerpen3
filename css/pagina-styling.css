@@ -542,11 +542,21 @@ svg {
     margin-top: 18em;
 
 }
+.partTwo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: 30em;
+    color: #2131ae;
+    margin-left: -3em;
 
+    color: deepskyblue;
+        background-color: transparent;
+
+}
 .partTwo > p {
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    margin-top: 5em;
+    margin-top: 6em;
     margin-left: -6em;
     background-color: transparent;
     color: #ffffff;
@@ -557,7 +567,7 @@ svg {
 
 /*SVG styling */
 .labdude {
-    padding-top: 17em;
+    padding-top: 20em;
     margin-left: -34em;
 }
 
@@ -764,17 +774,26 @@ svg {
     width: 30em;
     margin-right: auto;
     margin-left: 3.5em;
-    margin-top: 13em;
+    margin-top: 16em;
+}
+.partDrie h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: 30em;
+    color: #2131ae;
+    color: deepskyblue;
+        background-color: transparent;
 
 }
-
 .partDrie > p {
+    position: absolute;
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
-    position: absolute;
-    padding-bottom: 7em;
-    margin-left: 1em;
+    padding-bottom: 2em;
+    padding-top: 5em;
+    margin-left: 0em;
     color: #ffffff;
+    background-color: transparent;
 
 }
 
@@ -784,11 +803,10 @@ svg {
     position: inherit;
     width: 30em;
     height: 30em;
-    padding-top: 8em;
+    padding-top: 16em;
     margin-left: 34em;
     padding-left: 5em;
 }
-
 .magerehein {
     margin-top: -26em;
     background-color: transparent;
@@ -811,37 +829,28 @@ svg {
     }
 }
 
-
-
 /*magerehein kleuren*/
 .hein0 {
     fill:black;
 }
-
 .hein1 {
     fill: #212121;
 }
-
 .hein2 {
     fill: #212121;
 }
-
 .hein3 {
     fill: #CBCAD2;
 }
-
 .hein4 {
     fill: #33151D;
 }
-
 .hein5 {
     fill: #968EA2;
 }
-
 .hein6 {
     fill: #212121;
 }
-
 .hein7 {
     fill: #212121;
 }
@@ -854,64 +863,48 @@ svg {
 /*    fill: #090734;*/
     fill: #003366;
 }
-
 .kistkleur1 {
     fill: #AA151B;
 }
-
 .kistkleur2 {
     fill: #651B22;
 }
-
 .kistkleur3 {
     fill: #F1BF00;
 }
-
 .kistkleur4 {
     fill: #B22C2F;
 }
-
 .kistkleur5 {
     fill: none;
 }
-
 .kistkleur6 {
     fill: #FCD384;
 }
-
 .kistkleur7 {
     fill: #5A3501;
 }
-
 .kistkleur8 {
     fill: #5B3501;
 }
-
 .kistkleur9 {
     fill: #492908;
 }
-
 .kistkleur10 {
     fill: #7D4B00;
 }
-
 .kistkleur11 {
     fill: #D49609;
 }
-
 .kistkleur12 {
     fill: #7FA05A;
 }
-
 .kistkleur13 {
     fill: #D11417;
 }
-
 .kistkleur14 {
     fill: #90191D;
 }
-
-
 
 
 
@@ -966,7 +959,6 @@ svg {
     background-color: transparent;
 
 }
-
 .partFour h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
@@ -976,7 +968,6 @@ svg {
 
     background-color: transparent
 }
-
 .partFour > p {
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
@@ -994,23 +985,18 @@ svg {
     padding-left: 11em;
     margin-top: 13em;
 }
-
 .lungs0 {
     fill: #da3e49;
 }
-
 .lungs1 {
     fill: #f15465;
 }
-
 .lungs2 {
     fill: #c63441;
 }
-
 .lungs3 {
     fill: #b82536;
 }
-
 .lungs4 {
     fill: #cc324c;
 
@@ -1091,21 +1077,17 @@ svg {
     /*    transform: rotate(15deg);*/
 
 }
-
 .thermo0 {
     fill: #E2E2E3;
 }
-
 .thermo1 {
     fill: #ED3B27;
 }
-
 #balkje {
     fill: #ED3B27;
     animation: thermoAnimation 0.8s infinite alternate;
     transform: rotate(20deg);
 }
-
 @keyframes thermoAnimation {
     0% {
         transform: translateY(0);
@@ -1134,10 +1116,20 @@ svg {
     width: 30em;
     margin-right: auto;
     margin-left: 45em;
-    margin-top: 3em;
+    margin-top: 14em;
+    background-color: transparent;
 
 }
+.partFive h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: 30em;
+    color: #2131ae;
+margin-top: -.01em;
+    margin-left: -3em;
+        background-color: transparent;
 
+}
 .partFive > p {
     font-family: 'Poppins', sans-serif;
     position: absolute;
@@ -1153,12 +1145,29 @@ svg {
 /*SVG van de rat*/
 #svgrat {
     position: absolute;
-    padding-top: 16em;
+    padding-top: 28em;
     margin-left: -13em;
     background-color: transparent;
     animation: ratwalking 17s infinite;
 }
-
+.ratKleur0 {
+    fill: #4D4D4D;
+}
+.ratKleur1 {
+    fill: #666666;
+}
+.ratKleur2 {
+    fill: #FED5C3;
+}
+.ratKleur3 {
+    fill: #1A1A1A;
+}
+.ratKleur4 {
+    fill: #FFFFFF;
+}
+.ratKleur5 {
+    fill: #FED7C2;
+}
 @keyframes ratwalking {
     0% {
         opacity: 1;
@@ -1176,72 +1185,40 @@ svg {
     }
 }
 
-.ratKleur0 {
-    fill: #4D4D4D;
-}
-
-.ratKleur1 {
-    fill: #666666;
-}
-
-.ratKleur2 {
-    fill: #FED5C3;
-}
-
-.ratKleur3 {
-    fill: #1A1A1A;
-}
-
-.ratKleur4 {
-    fill: #FFFFFF;
-}
-
-.ratKleur5 {
-    fill: #FED7C2;
-}
 
 /*SVG van het poppetje in de kist*/
 #deadguy {
     position: absolute;
-    padding-top: -1em;
+    padding-top: 15em;
     margin-left: -10em;
     height: 40em;
     width: 40em;
     background-color: transparent;
 }
-
 .deadguy0 {
     fill: #FFFDFF;
 }
-
 .deadguy1 {
     fill: #F7CDB4;
 }
-
 .deadguy2 {
     fill: #5A3501;
 }
-
 .deadguy3 {
     fill: #492908;
 }
-
 .deadguy4 {
     fill: #7D4B00;
 }
-
 .deadguy5 {
     fill: #D49609;
 }
-
 .deadguy6 {
     fill: #012551;
 }
-
 .deadguy7 {
     fill: #F78FB7;
 }
-
 .deadguy8 {
     fill: none;
     stroke: #CE749D;
@@ -1250,7 +1227,6 @@ svg {
     stroke-linejoin: round;
     stroke-miterlimit: 10;
 }
-
 .deadguy9 {
     fill: none;
     stroke: #1D1D1B;
@@ -1258,7 +1234,6 @@ svg {
     stroke-linejoin: round;
     stroke-miterlimit: 10;
 }
-
 .deadguy10 {
     fill: #F6B096;
 }
@@ -1266,37 +1241,32 @@ svg {
 /*SVG van 200 miljoen tekst*/
 #tweehonderdmiljoen {
     position: absolute;
+        padding-top: 15em;
+    padding-left: 3em;
     height: 20em;
     width: 20em;
     margin: 4em 1em -7em 3em;
     background-color: transparent;
     animation: lol 20s infinite ease-in-out;
 }
-
 .tweehondermil0 {
     fill: none;
 }
-
 .tweehondermil1 {
     font-family: 'DoubledeckerDEMO-Regular';
 }
-
 .tweehondermil2 {
     font-size: 100px;
 }
-
 .tweehondermil3 {
     letter-spacing: -1;
 }
-
 .tweehondermil4 {
     letter-spacing: -6;
 }
-
 .tweehondermil5 {
     letter-spacing: -2;
 }
-
 @keyframes lol {
     0% {
         opacity: 0;
@@ -1549,13 +1519,25 @@ svg {
     width: 30em;
     margin-right: auto;
     margin-left: 45em;
-    margin-top: -10em;
+    margin-top: 2em;
+background-color: transparent;
+}
+.partSeven h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: 30em;
+    color: #2131ae;
+    margin-left: -3em;
+    padding-bottom: 1em;
+
+    color: #ffffff;
+        background-color: transparent;
 
 }
 .partSeven > p {
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    margin-top: 12em;
+    margin-top: 6em;
     margin-left: -6em;
     background-color: transparent;
     color: #000000;
@@ -1566,7 +1548,7 @@ svg {
 #vogelinbox{
     height: 24em;
     width: 24em;
-    padding-top: 0em;
+    padding-top: 2.8em;
     margin-left: -4em;
     background-color: transparent;
 
@@ -1617,10 +1599,20 @@ svg {
     width: 30em;
     margin-right: auto;
     margin-left: 3.5em;
-    margin-top: 2em;
+    margin-top: 20em;
     color: #ffffff;
     background-color: transparent;
 
+}
+.partEight h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: 30em;
+    padding: 0.5em;
+    color: #2131ae;
+    margin-top: -1.5em;
+
+    background-color: transparent
 }
 .partEight > p {
     font-size: 1em;
@@ -1641,7 +1633,7 @@ svg {
     height: 8em;
     width: 8em;
     padding-left: 24em;
-    margin-top: 8em;
+    margin-top: 30em;
 }
 
 
@@ -1832,7 +1824,7 @@ background-color: #D3D3D3;
     /*  afstand van de button, links*/
     margin-left: 1em;
 /*    margin-top: 15em;*/
-    margin-top: 48em;
+    margin-top: 58em;
 
 /*new design*/
     border-radius: 1em;
@@ -1893,7 +1885,7 @@ background-color: #D3D3D3;
 
     /*  afstand van de button, links*/
     margin-left: 46em;
-    margin-top: 48em;
+    margin-top: 58em;
 
 
 /*    New design*/
@@ -2060,6 +2052,34 @@ background-color: #D3D3D3;
 .volgendeKnop3:hover{
     background-color: #2131ae;
     border: none;
+}
+
+
+
+
+
+/*================================================*/
+/*          Woorden in de artikelen styling       */
+/*================================================*/
+
+
+.blauw{
+    color: dodgerblue;
+    font-weight: 600;
+}
+.benauwdheid{
+animation: breathing 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite;
+}
+@keyframes breathing {
+  0% {
+    filter: blur(0.01);
+  }
+  50% {
+    filter: blur(12px) opacity(0%);
+  }
+     100% {
+    filter: blur(0.01) opacity(1);
+  }
 }
 
 

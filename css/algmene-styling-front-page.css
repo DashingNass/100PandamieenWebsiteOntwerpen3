@@ -420,7 +420,18 @@ color: #3a3a3a;
 
 
 
-/*groot*/
+/*================================================*/
+/*               EMPTY STATE PAGINA'S             */
+/*================================================*/
+
+/*Header styling van het virus*/
+.virusName{
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/*SVG groene virussen*/
 #groenevirus1{
     width: 8em;
     height: 8em;
@@ -432,8 +443,6 @@ color: #3a3a3a;
 /*    animation: draai 8s infinite;*/
     background-color: transparent;
 }
-
-/*klein*/
 #groenevirus2{
     width: 4em;
     height: 4em;
@@ -443,8 +452,6 @@ color: #3a3a3a;
 /*    animation: draai 8s infinite;*/
     background-color: transparent;
 }
-
-/*groot*/
 #groenevirus3{
     width: 8em;
     height: 8em;
@@ -456,8 +463,6 @@ color: #3a3a3a;
 
     background-color: transparent;
 }
-
-/*klein*/
 #groenevirus4{
     width: 4em;
     height: 4em;
@@ -467,8 +472,6 @@ color: #3a3a3a;
 /*    animation: draai 8s infinite;*/
     background-color: transparent;
 }
-
-/*klein*/
 #groenevirus5{
     position: absolute;
     width: 4em;
@@ -480,6 +483,17 @@ color: #3a3a3a;
         animation: puff-out-center 2s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
 
     background-color: transparent;
+}
+
+/*SVG kleuren*/
+.virus0{
+    fill:#BAD612;
+    }
+.virus1{
+    fill:#D6EA18;
+    }
+.virus2{
+    fill:#ACBC13;
 }
 
 @keyframes puff-out-center {
@@ -525,27 +539,7 @@ color: #3a3a3a;
 }
 
 
-.virusName{
-    color: black;
-    font-style: italic;
-    font-weight: 600;
-}
-
-
-/*styling */
-  .virus0{
-    fill:#BAD612;
-    }
-    .virus1{
-    fill:#D6EA18;
-    }
-    .virus2{
-    fill:#ACBC13;
-}
-
-
-
-
+/*Algemene styling van de Empty states*/
 .EmptyStateTekst {
     display: flex;
     position: absolute;
@@ -573,11 +567,6 @@ color: #3a3a3a;
 color: #3a3a3a;
     background-color: transparent;
 }
-
-
-
-
-/*Button bij de emptystate*/
 #homepage{
     padding: 1em;
     margin-left: 39em;
@@ -588,6 +577,47 @@ color: #3a3a3a;
     color: white;
     border-radius: 10px
 }
+
+
+/*styling voor de Corona pagina*/
+.EmptyStateTekstCorona {
+    display: flex;
+    position: absolute;
+    width: 30em;
+    margin-right: auto;
+    margin-left: 45em;
+    margin-top: 3em;
+}
+.EmptyStateTekstCorona h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: 30em;
+    padding: 0.5em;
+    padding-bottom: 1em;
+    color: #2131ae;
+
+
+}
+.EmptyStateTekstCorona > p {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    padding-top: .5em;
+    margin-top: 9em;
+    margin-left: 1.2em;
+color: #3a3a3a;
+    background-color: transparent;
+}
+#homepageCorona{
+    padding: 1em;
+    margin-left: 39em;
+    margin-top: -14em;
+    position: absolute;
+    background-color: #191B9E;
+    border: none;
+    color: white;
+    border-radius: 10px
+}
+
 
 
 
@@ -805,7 +835,7 @@ background-color: #87CEEB;
 
 }
 .imageInCard3:hover{
-    background: url(../images/clouds_1.gif);
+    background: url(../images/wolken.gif);
 }
 
 
